@@ -396,6 +396,11 @@ static int dot11_stringMaxIndex;
 	void DeviceProxy_dot11::setConfig(Configuration* fs_cfg, Configuration* hs_cfg, bool hs) {
 		;
 	}
+
+	void DeviceProxy_dot11::set_endpoint_interface(__u8 endpoint, __u8 interface) {
+		// Nothing here either
+		;
+	}
 	
 	void DeviceProxy_dot11::claim_interface(__u8 interface) {
 		;

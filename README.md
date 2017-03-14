@@ -13,7 +13,7 @@ Build
 -----
 Dependencies:
 ```
-sudo apt-get install build-essential cmake
+sudo apt-get install build-essential cmake libusb-1.0.0-dev pkg-config
 ```
 Build:
 ```
